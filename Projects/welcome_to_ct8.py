@@ -7,6 +7,7 @@ stage = StageClass()
 
 
 
+
 stage.set_background("hauntedhouse")
 mySprite = codesters.Sprite("corgi")
 mySprite.say("Heyyy Gurll!")
