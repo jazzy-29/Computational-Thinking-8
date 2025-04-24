@@ -8,12 +8,22 @@ t.penup()
 t.goto(0, -100)
 t.color("blue")
 t.pendown()
+
+#repeat directions
+for i in range(200):
+    t.forward(100 + i)
+    t.left(90)
+    t.color("blue")
+    turtle.Screen() .bgcolor("black")
+
+
+
 #color of backround and pen
 t.color("purple")
 turtle.Screen() .bgcolor("black")
 
 #repeat directions
-for i in range(100):
+for i in range(200):
     t.forward(100 + i)
     t.left(90)
 
