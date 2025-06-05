@@ -69,4 +69,4 @@ elif x4>= x1 and x4>= x2 and x4>= x3:
 
 
 
-turtle.exitonclick()
+
